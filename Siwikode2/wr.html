@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siwikode</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+    <a class="navbar-brand" href=#>SIWIKODE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="wr.html">Wisata Rekreasi</a>
+        <a class="nav-link" href="kl.html">Wisata Kuliner</a>
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Registrasi
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="registrasiWr.html">Registrasi Wisata Rekreasi</a>
+            <a class="dropdown-item" href="registrasikl.html">Registrasi Wisata Kuliner</a>
+          </div>
+        </div>
+        </div>
+        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-user"></i></button>
+    </nav>
+     <!--MODAL--->
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Username</label>
+                <input type="text" class="form-control" id="username">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Password:</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary"
+             onclick="login()"
+            data-dismiss="modal">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+ <div class="jumbotron2">
+    <div class="container text-center">
+    <h1 class="display-4">Daftar Wisata Rekreasi</h1>
+</div>
+</div>
+
+<div class="container">
+    <div class="row mb-4">
+        <div class="col-md">
+            <div class="card mb-4">
+                <img class="card-img-top" src="img/wiladatika.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p>
+                        <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          lihat lebih lanjut disini >>
+                        </a>
+                     
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            Tempat Wisata Depok yang pertama wajib dikunjungi adalah Taman Bunga Wiladatika merupakan tempat wisata merupakan tempat wisata di Depok yang depok yang cocok untuk dewasa ataupun keluarga dengan anak-anak. 
+                            <a class="btn btn-danger" href="detailwr1.html">View detail >></a>    
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card mb-4">
+                <img class="card-img-top" src="img/ciliwung.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Lihat lebih lanjut disini >>
+                  </a>
+                
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Menariknya ,adanya pengembangan sungai ciliwung Depok menjadi tempat wisata membuat pemerintah dan warga setempat semakin gencar menjaga kebersihan sungai ini.jadi tidak seperti aliran sungai ciliwung setelah sampai jakarta,sungai ciliwung di bogor dan depok masih cukup bersih dan aman untuk kegiatan arum jeram.
+                    <a class="btn btn-danger" href="detailwr2.html">View detail >></a>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md">
+            <div class="card mb-4">
+                <img class="card-img-top" src="img/situ.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    lihat lebih lanjut disini >>
+                  </a>
+              
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Situ pangasinan adalah tempat wisata alam di Depok berupa danau yang berada di kelurahan pangasinan,Kecamatan Sawangan,Depok.Ada banyak aktivitas menarik yang bisa Anda lakukan danau yang membentang seluas 6ha ini.misalnya flying fox,berkeliling danau menggunakan perahu bebek,atau memancing  
+                    <a class="btn btn-danger" href="detailwr3.html">View detail >></a>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>      
+    </div>
+</div>
+
+
+<div class="card text-center">
+    <div class="card-header">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Siwikode</h5>
+      <p class="card-text">Sistem Informasi Wisata Depok</p>
+        <a href="index.html" class="btn">Home>></a>
+    <p>
+        Wisata Rekreasi
+    </p> 
+   </div>
+    <div class="card-footer">
+      Develop by mahasiswa @STT-NF2020
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

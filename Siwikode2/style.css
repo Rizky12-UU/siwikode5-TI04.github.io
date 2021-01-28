@@ -1,0 +1,220 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #a6a6a6;
+}
+
+
+.navbar .container .navbar-brand {
+    font-weight: 500;
+    transition: 1s;
+    color: #b6fc03;
+}
+
+.navbar .container .navbar-brand:hover {
+    color: blue;
+}
+
+.navbar .container .navbar-nav .nav-link {
+    margin-right: 50px;
+    color: #eb9e34;
+    transition: 1s;
+}
+
+.navbar .container .navbar-nav .nav-link:hover {
+    color: #ffa64d;
+    transform: translateY(-7px);
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.jumbotron .container {
+    margin-top: 100px;
+}
+
+
+.d-block {
+    height: 75vh;
+    width: 225vh;
+
+}
+
+
+.d-block h2 {
+    color: darkblue;
+}
+
+.jumbotron {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/pohon.jpg) 0 -100px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 0 0 10px gray;
+    clip-path: ellipse(180vh 100vh at 50% -5vh);
+}
+
+.jumbotron2 {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/view.jpg) 0 -100px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 80px;
+    box-shadow: 0 0 10px gray;
+    clip-path: ellipse(180vh 100vh at 50% -5vh);
+}
+
+
+.jumbotron3 {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/makan.jpg) 0 -100px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 100px;
+    box-shadow: 0 0 10px gray;
+    clip-path: ellipse(180vh 100vh at 50% -5vh);
+}
+
+.jumbotron4 {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.4)), url(img/pohon.jpg) 0 -100px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 100px;
+    box-shadow: 0 0 10px gray;
+    clip-path: ellipse(180vh 100vh at 50% -5vh);
+}
+
+
+.jumbotron3 h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.jumbotron3 .container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.jumbotron2 h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.jumbotron2 .container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+
+.card {
+    box-shadow: 0 0 10px #666;
+    margin-top: 60px;
+}
+
+.detail1 {
+    width: 30vh;
+    height: 30vh;
+
+    margin-bottom: 40px;
+    padding-right: 10px;
+
+}
+
+.detail2 {
+    width: 20vh;
+    height: 20vh;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+
+.col-md-2 p {
+    margin-top: 30px;
+}
+
+.btn {
+    color: #eb9e34;
+    transition: 1s;
+}
+
+
+.btn:hover {
+    color: #ffa64d;
+    transform: translateY(-7px);
+}
+
+
+.modal-title {
+    text-align: center;
+}
+
+.dropdown {
+    margin-right: 150px;
+}
+
+/* team */
+.team {
+    font-weight: 500;
+    margin: 0;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.15);
+}
+
+.team .container .row .col-md-12 {
+    margin-top: 50px;
+}
+
+.team .row:nth-child(2) {
+    margin-right: 50px;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.row:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.row .col-md-3 {
+    width: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.row .img-thumbnail {
+    margin-top: 90px;
+    width: 150px;
+    height: 130px;
+    margin-left: 30px;
+}
+
+.row .col-md-3 h4 {
+    margin: 10px 0;
+    margin-right: -20px;
+}
+
+.card-body {
+    background-color: #f2f2f2;
+}
+
+.card-footer {
+    background-color: #e6e6e6;
+}
+
+.table-striped {
+    color: #f2f2f2;
+}
